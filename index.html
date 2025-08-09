@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" />
+        <script type="module" src="main.js"></script>
+	</head>
+	<body>
+        <div>
+            <canvas class="myCanvas" width="256" height="240"></canvas>
+			
+			<div>
+				<input type="file" id="rom" accept=".nes"/>
+				<input type="button" id="run" value="run"/>
+				<input type="button" id="stop" value="stop"/>
+				<input type="button" id="reset" value="reset"/>
+			</div>
+		</div>
+        
+		<div hidden>
+			<div>
+				<canvas class="patterntable" width="256" height="128"></canvas>
+				<canvas class="spritelist" width="128" height="64"></canvas>
+				<canvas class="paletteRAM" width="128" height="16"></canvas>
+			</div>
+			<div>
+				<canvas class="nametable" width="1024" height="240"></canvas>
+			</div>
+		</div>
+		
+		
+    </body>
+</html>

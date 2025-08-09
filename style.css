@@ -1,0 +1,8 @@
+label {
+    display: block;
+}
+
+canvas {
+	image-rendering: pixelated;
+	border: 1px inset;
+}
